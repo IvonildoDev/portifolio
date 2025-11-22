@@ -1,3 +1,5 @@
+import ivonildoImg from '../assets/Ivonildo.jpg';
+
 const Hero = () => {
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -22,7 +24,7 @@ const Hero = () => {
       </div>
       <div className="hero-image-container">
         <div className="hero-image">
-          <img src="/src/assets/Ivonildo.jpg" alt="Ivonildo Lima - Desenvolvedor Web" />
+          <img src={ivonildoImg} alt="Ivonildo Lima - Desenvolvedor Web" />
         </div>
       </div>
     </div>

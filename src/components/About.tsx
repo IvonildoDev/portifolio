@@ -1,3 +1,5 @@
+import ivonildoImg from '../assets/Ivonildo.jpg';
+
 const About = () => {
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -20,7 +22,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-video">
             <div className="profile-image">
-              <img src="/src/assets/Ivonildo.jpg" alt="Ivonildo Lima - Desenvolvedor Web" />
+              <img src={ivonildoImg} alt="Ivonildo Lima - Desenvolvedor Web" />
               <div className="experience-badge">
                 <span className="number">1+</span>
                 <span className="text">Ano de<br />Experiência</span>

@@ -1,3 +1,5 @@
+import logoImg from '../assets/logo.png';
+
 const Footer = () => {
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -13,7 +15,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-logo">
             <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-              <img src="/src/assets/logo.png" alt="Ivonildo Lima - Web Developer" />
+              <img src={logoImg} alt="Ivonildo Lima - Web Developer" />
             </a>
             <p>Desenvolvedor Web</p>
           </div>

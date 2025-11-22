@@ -1,4 +1,16 @@
 import { useState } from 'react';
+import elohimImg from '../assets/Elohim.PNG?url';
+import tertoImg from '../assets/terto.PNG?url';
+import checklistImg from '../assets/checklist.PNG?url';
+import lavanderiaImg from '../assets/lavanderia.PNG?url';
+import resumoFilmesImg from '../assets/resumofilmes.PNG?url';
+import calcvolImg from '../assets/calcvol.png';
+import siscopImg from '../assets/siscop.png';
+import financeImg from '../assets/finance.jpeg';
+import rifaImg from '../assets/rifa.jpeg';
+import slikelineImg from '../assets/slikeline.jpeg';
+import ucaqImg from '../assets/ucaq.jpeg';
+import scvImg from '../assets/Scv.jpeg';
 
 interface PortfolioItem {
   id: number;
@@ -21,56 +33,56 @@ const Portfolio = () => {
       id: 1,
       title: 'Elohim Moda',
       category: 'website',
-      image: '/src/assets/Elohim.PNG',
+      image: elohimImg,
       link: '#'
     },
     {
       id: 2,
       title: 'Terto Lanches',
       category: 'website',
-      image: '/src/assets/terto.PNG',
+      image: tertoImg,
       link: '#'
     },
     {
       id: 3,
       title: 'Sistema Checklist',
       category: 'sistema',
-      image: '/src/assets/checklist.PNG',
+      image: checklistImg,
       link: '#'
     },
     {
       id: 4,
       title: 'Sistema Lavanderia',
       category: 'sistema',
-      image: '/src/assets/lavanderia.PNG',
+      image: lavanderiaImg,
       link: '#'
     },
     {
       id: 5,
       title: 'Resumo de Filmes',
       category: 'website',
-      image: '/src/assets/resumofilmes.PNG',
+      image: resumoFilmesImg,
       link: '#'
     },
     {
       id: 6,
       title: 'Calculadora de Volume',
       category: 'website',
-      image: '/src/assets/calcvol.png',
+      image: calcvolImg,
       link: '#'
     },
     {
       id: 7,
       title: 'Sistema SISCOP',
       category: 'sistema',
-      image: '/src/assets/siscop.png',
+      image: siscopImg,
       link: '#'
     },
     {
       id: 8,
       title: 'Finance App',
       category: 'app',
-      image: '/src/assets/finance.jpeg',
+      image: financeImg,
       link: '#',
       description: 'Aplicativo de controle financeiro pessoal com gráficos e relatórios',
       features: 'Controle de receitas e despesas, Categorização automática, Gráficos interativos, Metas financeiras',
@@ -81,7 +93,7 @@ const Portfolio = () => {
       id: 9,
       title: 'Rifa Digital',
       category: 'app',
-      image: '/src/assets/rifa.jpeg',
+      image: rifaImg,
       link: '#',
       description: 'Sistema completo de gerenciamento de rifas digitais',
       features: 'Criação de rifas, Pagamento integrado, Sorteio automático, Notificações push',
@@ -92,7 +104,7 @@ const Portfolio = () => {
       id: 10,
       title: 'Slikline',
       category: 'app',
-      image: '/src/assets/slikeline.jpeg',
+      image: slikelineImg,
       link: '#',
       description: 'Aplicativo de delivery e gestão de pedidos',
       features: 'Catálogo de produtos, Carrinho de compras, Rastreamento em tempo real, Sistema de avaliações',
@@ -103,7 +115,7 @@ const Portfolio = () => {
       id: 11,
       title: 'UCAQ',
       category: 'app',
-      image: '/src/assets/ucaq.jpeg',
+      image: ucaqImg,
       link: '#',
       description: 'Plataforma educacional com recursos interativos',
       features: 'Aulas online, Material didático, Exercícios interativos, Avaliações online',
@@ -114,7 +126,7 @@ const Portfolio = () => {
       id: 12,
       title: 'SCV Sistema',
       category: 'app',
-      image: '/src/assets/Scv.jpeg',
+      image: scvImg,
       link: '#',
       description: 'Sistema de controle de vendas mobile',
       features: 'Gestão de clientes, Controle de estoque, Relatórios de vendas, Dashboard analítico',

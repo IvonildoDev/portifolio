@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logoImg from '../assets/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -69,7 +70,7 @@ const Header = () => {
         <div className="container">
           <div className="logo">
             <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-              <img src="/src/assets/logo.png" alt="Ivonildo Lima - Web Developer" />
+              <img src={logoImg} alt="Ivonildo Lima - Web Developer" />
             </a>
           </div>
           <nav className={isMenuOpen ? 'active' : ''}>
