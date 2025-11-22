@@ -147,6 +147,9 @@ const Portfolio = () => {
     if (item.isMobileApp) {
       setSelectedApp(item);
       document.body.style.overflow = 'hidden';
+    } else {
+      // Para websites e sistemas, abre em nova aba
+      window.open(item.link, '_blank');
     }
   };
 
