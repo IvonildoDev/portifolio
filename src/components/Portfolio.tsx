@@ -31,17 +31,17 @@ const Portfolio = () => {
   const portfolioItems: PortfolioItem[] = [
     {
       id: 1,
-      title: 'Elohim Moda',
+      title: 'Ministério Elohim',
       category: 'website',
       image: elohimImg,
-      link: '#'
+      link: 'https://ministerioelohim.netlify.app/'
     },
     {
       id: 2,
-      title: 'Terto Lanches',
+      title: 'Terto Barbearia',
       category: 'website',
       image: tertoImg,
-      link: '#'
+      link: 'https://tertobarbearia.netlify.app/'
     },
     {
       id: 3,
@@ -62,14 +62,14 @@ const Portfolio = () => {
       title: 'Resumo de Filmes',
       category: 'website',
       image: resumoFilmesImg,
-      link: '#'
+      link: 'https://resumofilmes.netlify.app/'
     },
     {
       id: 6,
       title: 'Calculadora de Volume',
       category: 'website',
       image: calcvolImg,
-      link: '#'
+      link: 'https://calcvol.netlify.app/'
     },
     {
       id: 7,
