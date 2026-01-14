@@ -15,15 +15,15 @@ const Skills = () => {
     { name: 'JavaScript', icon: 'fab fa-js', level: 65 },
     { name: 'React', icon: 'fab fa-react', level: 50 },
     { name: 'TypeScript', icon: 'fas fa-code', level: 62 },
-    { name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 45 }
+    { name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 35 }
   ];
 
   const backendSkills: Skill[] = [
     { name: 'Node.js', icon: 'fab fa-node-js', level:45 },
     { name: 'PHP', icon: 'fab fa-php', level: 50 },
-    { name: 'MySQL', icon: 'fas fa-database', level: 30 },
-    { name: 'Git', icon: 'fab fa-git-alt', level: 25 },
-    { name: 'Firebase', icon: 'fas fa-fire', level: 20 },
+    { name: 'MySQL', icon: 'fas fa-database', level: 40 },
+    { name: 'Git', icon: 'fab fa-git-alt', level: 45 },
+    { name: 'Firebase', icon: 'fas fa-fire', level: 30 },
     { name: 'React Native', icon: 'fab fa-react', level: 55 }
   ];
 
