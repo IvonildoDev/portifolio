@@ -10,21 +10,21 @@ const Skills = () => {
   const sectionRef = useRef<HTMLElement>(null);
 
   const frontendSkills: Skill[] = [
-    { name: 'HTML5', icon: 'fab fa-html5', level: 95 },
-    { name: 'CSS3', icon: 'fab fa-css3-alt', level: 90 },
-    { name: 'JavaScript', icon: 'fab fa-js', level: 85 },
-    { name: 'React', icon: 'fab fa-react', level: 80 },
-    { name: 'TypeScript', icon: 'fas fa-code', level: 75 },
-    { name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 85 }
+    { name: 'HTML5', icon: 'fab fa-html5', level: 75 },
+    { name: 'CSS3', icon: 'fab fa-css3-alt', level: 70 },
+    { name: 'JavaScript', icon: 'fab fa-js', level: 65 },
+    { name: 'React', icon: 'fab fa-react', level: 50 },
+    { name: 'TypeScript', icon: 'fas fa-code', level: 62 },
+    { name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 45 }
   ];
 
   const backendSkills: Skill[] = [
-    { name: 'Node.js', icon: 'fab fa-node-js', level: 75 },
-    { name: 'PHP', icon: 'fab fa-php', level: 70 },
-    { name: 'MySQL', icon: 'fas fa-database', level: 80 },
-    { name: 'Git', icon: 'fab fa-git-alt', level: 85 },
-    { name: 'Firebase', icon: 'fas fa-fire', level: 70 },
-    { name: 'React Native', icon: 'fab fa-react', level: 75 }
+    { name: 'Node.js', icon: 'fab fa-node-js', level:45 },
+    { name: 'PHP', icon: 'fab fa-php', level: 50 },
+    { name: 'MySQL', icon: 'fas fa-database', level: 30 },
+    { name: 'Git', icon: 'fab fa-git-alt', level: 25 },
+    { name: 'Firebase', icon: 'fas fa-fire', level: 20 },
+    { name: 'React Native', icon: 'fab fa-react', level: 55 }
   ];
 
   useEffect(() => {

@@ -96,8 +96,8 @@ const Portfolio = () => {
       image: rifaImg,
       link: '#',
       description: 'Sistema completo de gerenciamento de rifas digitais',
-      features: 'Criação de rifas, Pagamento integrado, Sorteio automático, Notificações push',
-      tech: 'React Native, Node.js, MongoDB',
+      features: 'Criação de rifas, com gestao de  Pagamento ,dados de vendas e relatorio de evoluçõa das rifas',
+      tech: 'React Native, ofiline banco sqlite',
       isMobileApp: true
     },
     {
@@ -106,9 +106,9 @@ const Portfolio = () => {
       category: 'app',
       image: slikelineImg,
       link: '#',
-      description: 'Aplicativo de delivery e gestão de pedidos',
-      features: 'Catálogo de produtos, Carrinho de compras, Rastreamento em tempo real, Sistema de avaliações',
-      tech: 'React Native, Firebase, Google Maps API',
+      description: 'Aplicativo de gestão de operações ',
+      features: 'com unidde de intervençao em poços de petroleo',
+      tech: 'React Native,',
       isMobileApp: true
     },
     {
@@ -117,9 +117,9 @@ const Portfolio = () => {
       category: 'app',
       image: ucaqImg,
       link: '#',
-      description: 'Plataforma educacional com recursos interativos',
-      features: 'Aulas online, Material didático, Exercícios interativos, Avaliações online',
-      tech: 'React Native, WebRTC, Firebase',
+      description: 'app de gerenciamento de atividades em campos de petroleo gerando relatorios em tempo real',
+      features: '',
+      tech: 'React Native,',
       isMobileApp: true
     },
     {
@@ -128,9 +128,9 @@ const Portfolio = () => {
       category: 'app',
       image: scvImg,
       link: '#',
-      description: 'Sistema de controle de vendas mobile',
-      features: 'Gestão de clientes, Controle de estoque, Relatórios de vendas, Dashboard analítico',
-      tech: 'React Native, Redux, REST API',
+      description: 'Sistema de cadastro de visitantes em igrejas ou eventos religiosos ',
+      features: '',
+      tech: 'React Native,',
       isMobileApp: true
     }
   ];
